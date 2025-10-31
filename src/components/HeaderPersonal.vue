@@ -1,10 +1,8 @@
 <template>
-    <div class="header-personal text-center q-pa-lg">
-    <!-- Foto o Avatar -->
-    <q-avatar size="140px" class="q-mb-md" color="primary" text-color="white">
-    <q-icon name="person" size="80px" />
-    <!-- Para agregar tu foto después: -->
-    <!-- <img src="~assets/mi-foto.jpg" alt="Tu foto"> -->
+<div class="header-personal text-center q-pa-lg">
+    <!-- Foto -->
+    <q-avatar size="140px" class="q-mb-md">
+    <img src="~assets/foto1.jpeg" alt="Foto de Jummy">
     </q-avatar>
     
     <!-- Nombre y título -->
