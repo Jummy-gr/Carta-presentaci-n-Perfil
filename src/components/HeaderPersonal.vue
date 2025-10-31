@@ -9,7 +9,7 @@
     
     <!-- Nombre y título -->
     <h1 class="text-h3 text-weight-bold q-mb-sm">Jummy Juvanita Gave Ramirez</h1>
-    <p class="text-h5 text-grey-8 q-mb-md">Ingenieria de Tecnologias de la Informacion y Sistemas</p>
+    <p class="text-h5 text-grey-8 q-mb-md">Ingeniería de Tecnologías de la Información y Sistemas</p>
     
     <!-- Etiquetas -->
     <div class="q-gutter-sm">
@@ -28,14 +28,14 @@
 
 <script>
 export default {
-name: 'HeaderPersonal'
+name: 'HeaderPersonalSection'
 }
 </script>
 
 <style scoped>
 .header-personal {
 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-color: white;
+color: rgb(252, 245, 255);
 border-radius: 15px;
 margin-bottom: 20px;
 box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);

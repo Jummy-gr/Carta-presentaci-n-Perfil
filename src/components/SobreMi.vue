@@ -5,8 +5,8 @@
     <q-card class="q-pa-md">
     <q-card-section>
         <p class="text-body1">
-        ¡Hola! Soy Jummy, un apasionado en el analisis y ciencia de datos
-        con interés en el en la programacion.
+        ¡Hola! Soy Jummy, un apasionada en el analisis y ciencia de datos
+        con interés en la programacion.
         </p>
         
         <p class="text-body1 q-mt-md">
@@ -16,10 +16,10 @@
         </p>
         
         <div class="q-mt-lg">
-        <h3 class="text-h6 text-weight-bold">🎓 Soy estudiante universitaria </h3>
+        <h3 class="text-h6 text-weight-bold">🎓 Estudiante </h3>
         <ul class="q-mt-sm">
             <li>Ingenieria de Tecnologias de la Informacion y Sistemas - Universidad ESAN</li>
-            <li>2022 - </li>
+            <li> Estudiante de ingles - Britanico </li>
         </ul>
         </div>
     </q-card-section>
@@ -29,13 +29,13 @@
 
 <script>
 export default {
-name: 'SobreMi'
+name: 'SobreMiSection'
 }
 </script>
 
 <style scoped>
 .sobre-mi {
-background-color: #f8f9fa;
+background-color: #cfb7e6;
 border-radius: 10px;
 }
 </style>
