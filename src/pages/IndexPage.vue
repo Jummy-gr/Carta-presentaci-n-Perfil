@@ -1,13 +1,28 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    />
+  <q-page class="q-pa-md">
+    <HeaderPersonal />
+    <SobreMi />
+    <Habilidades />
+    <Pasatiempos />
+    <Contacto />
   </q-page>
 </template>
 
-<script setup>
-//
+<script>
+import HeaderPersonal from 'components/HeaderPersonal.vue'
+import SobreMi from 'components/SobreMi.vue'
+import Habilidades from 'components/Habilidades.vue'
+import Pasatiempos from 'components/Pasatiempos.vue'
+import Contacto from 'components/Contacto.vue'
+
+export default {
+  name: 'IndexPage',
+  components: {
+    HeaderPersonal,
+    SobreMi,
+    Habilidades,
+    Pasatiempos,
+    Contacto
+  }
+}
 </script>
